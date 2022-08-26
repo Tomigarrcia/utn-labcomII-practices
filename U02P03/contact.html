@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Hola mundo!</h1>
+        <p>Bienvenido a mi pagina</p>
+    </header>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <form action="/action.php">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><label for="Nombre">Nombre:</label></th>
+                                <th><label for="Email">Email:</label></th>
+                                <th><label for="Edad">Edad:</label></th>
+                                <th><label for="Color Preferido">Color Preferido:</label></th>
+                                <th><label for="Comentario">Comentario:</label></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input required type="text" name="Nombre" id="Nombre"></td>
+                                <td><input required type="email" name="Email" id="Email"></td>
+                                <td><input type="number" name="Edad" id="Edad"></td>
+                                <td><input type="color" name="Color" id="Color"></td>
+                                <td><input type="text" min="10" name="Comentario" id="Comentario"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <input type="submit" value="submit" >
+                </form>
+            </section>
+        </main>
+        <div class="right">
+            <h2>Info</h2>
+            <p>Lorem ipsum </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© copyright labcomII.com</p>
+    </footer>
+</body>
+</html>
