@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action.php">
+        <input type="text" readonly value="Estudiante">
+        
+        <label for="Nombre">Nombre Completo:</label>
+        <input type="text" name="Nombre" id="Nombre">
+        
+        <label for="Email">Email:</label>
+        <input type="text" name="Email" id="Email">
+        
+        <label for="Edad">Edad:</label>
+        <input type="number" name="Edad" id="Edad">
+        
+        <label for="Nacionalidad">Lugar de nacimiento</label>
+        <select name="Nacionalidad" id="Nacionalidad">
+            <option value="Argentino">Argentina</option>
+            <option value="Colombiano">Colombia</option>
+            <option value="Estanudidense">Estados Unido</option>
+            <option value="Boliviano">Bolivia</option>
+        </select>
+        
+        <label for="CondicionLaboral">Condicion Laboral</label>
+        <select name="CondicionLaboral" id="CondicionLaboral">
+            <option value="Desempleado">Desempleado</option>
+            <option value="Busqueda">En busqueda laboral</option>
+            <option value="TrabajoHalf">Trabajo hall time</option>
+            <option value="TrabajoFull">Trabajo full time</option>
+        </select>
+        <hr>
+        <label for="GustosMusicales">Gustos Musicales</label>
+        <input type="text" name="GustosMusicales" id="GustosMusicales">
+        <br>
+        <label for="Comidas">Comidas Preferidas</label>
+        <select name="Comidas" id="Comidas">
+            <option value="Hamburguesa">Hamburguesa</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Pasta">Pasta</option>'
+            <option value="Otros">Otros</option>
+        </select>
+        <br>
+        <label for="Recordatorio">Desea recordar el Usuario?</label>
+        <input type="checkbox" name="Recordatorio" id="Recordatorio">
+        <br>
+        <input type="Submit" value="Submit">
+
+    </form>
+</body>
+</html>
